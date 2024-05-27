@@ -98,7 +98,7 @@ async def callback_handler(client, query):
         )
 
   
-@bot.on_message(filters.command(["down"]))
+@bot.on_message(filters.command(["AMAN"]))
 async def account_login(bot: Client, m: Message):
     global cancel
     cancel = False
